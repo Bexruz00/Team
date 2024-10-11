@@ -1,0 +1,14 @@
+// Tablet Version: [576px, 767px]
+@media (max-width: 767.5px) {
+  .header {
+    padding: 64px 40px;
+  }
+
+  .header__links a img {
+    max-width: 127.96px;
+  }
+
+  .header__links {
+    gap: 45px;
+  }
+}

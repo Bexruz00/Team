@@ -1,0 +1,47 @@
+@mixin display($direction, $align, $space, $gap) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $space;
+  gap: $gap;
+}
+
+@mixin title($color) {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: $color;
+}
+
+@mixin sWord() {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: var(--white);
+}
+
+@mixin nWord() {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: var(--white);
+}
+
+@mixin line($color) {
+  width: 50px;
+  height: 4px;
+  background: $color;
+}
+
+@mixin button($border, $color) {
+  width: 153px;
+  height: 48px;
+  border-radius: 24px;
+  border: 2px solid $border;
+  font-family: "Livvic", sans-serif;
+  color: $color;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  background: transparent;
+}

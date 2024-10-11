@@ -1,0 +1,30 @@
+.header {
+  background: var(--darkgreen);
+  padding: 75px 165px;
+}
+
+.header__logo {
+  @include display(row, center, space-between, 0);
+}
+
+.header__links {
+  @include display(row, center, center, 80px);
+}
+
+.header__menu ul {
+  @include display(row, center, center, 40px);
+}
+
+.header__menu li a {
+  @include nWord();
+}
+
+.bt {
+  @include button(var(--white), var(--white));
+}
+
+.Abt,
+.header__close,
+.header__bars {
+  display: none;
+}

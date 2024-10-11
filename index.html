@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myteam</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <div class="header__links">
+            <a href="#"><img src="images/logo.png" /></a>
+            <div class="header__menu">
+              <ul>
+                <li><a onclick="addShow();" href="#">home</a></li>
+                <li><a onclick="addShow();" href="#">about</a></li>
+                <li>
+                  <a class="Abt" onclick="addShow();" href="#">contact us</a>
+                </li>
+              </ul>
+
+              <i
+                onclick="addShow();"
+                class="fa-solid fa-xmark header__close"
+              ></i>
+            </div>
+            <i
+              onclick="addShow();"
+              class="fa-solid fa-bars-staggered header__bars"
+            ></i>
+          </div>
+          <button class="bt">contact us</button>
+        </div>
+      </div>
+    </header>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
