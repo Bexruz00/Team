@@ -1,0 +1,52 @@
+.icons {
+  padding: 0px 65px 140px 65px;
+  background-image: url(../images/greenBG.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icons__box {
+  @include display(row, center, space-evenly, 0);
+}
+
+.icons__bin {
+  @include display(column, start, center, 55px);
+  max-width: 445px;
+}
+
+.icons__line {
+  @include line(var(--red));
+}
+
+.icons__title {
+  @include title(var(--white));
+}
+
+.icons__iconBox {
+  @include display(row, center, center, 20px);
+  max-width: 540px;
+}
+
+.icons__subtitle {
+  margin-top: 222px;
+  @include display(column, start, center, 30px);
+}
+
+.icons__word{
+    @include display(column, start, center, 20px)
+}
+
+.icons__word h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--red);
+}
+
+.icons__word p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: var(--white);
+}

@@ -1,0 +1,40 @@
+.home {
+  background-image: url(../images/home_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 20px 230px 20px;
+}
+
+.home__bin{
+    @include display(row, center, space-evenly, 0);
+}
+
+.home__title {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  color: var(--white);
+  max-width: 600px;
+}
+
+.home__word {
+  color: var(--red);
+}
+
+.home__box {
+  @include display(column, start, center, 80px);
+  max-width: 445px;
+}
+
+.home__line {
+  @include line(var(--grenn));
+}
+
+.home__subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: var(--white);
+  max-width: 445px;
+}

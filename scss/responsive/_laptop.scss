@@ -3,4 +3,61 @@
   .header {
     padding: 75px 50px;
   }
+
+  // ---- home start ----
+  .home__title {
+    font-size: 90px;
+  }
+
+  .home__box {
+    gap: 55px;
+  }
+
+  // ---- icons start ----
+  .icons__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .icons__bin {
+    max-width: 400px;
+  }
+
+  .icons__subtitle {
+    margin-top: 150px;
+  }
+
+  .icons__title {
+    margin-bottom: 222px;
+  }
+}
+
+@media (max-width: 840px) {
+  .icons__box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 0;
+  }
+
+  .icons {
+    padding: 100px 97px;
+  }
+
+  .icons__title {
+    margin-bottom: 0px;
+    font-size: 42px;
+    line-height: 32px;
+  }
+
+  .icons__subtitle {
+    margin-top: 64px;
+  }
+
+  .icons__bin {
+    max-width: 500px;
+    gap: 32px;
+  }
+
 }
