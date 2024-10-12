@@ -1,0 +1,61 @@
+.users {
+    background-image: url(../images/about_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 165px;
+}
+
+.users__bin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user__title {
+    @include title(var(--white));
+    text-align: center;
+    max-width: 932px;
+}
+
+.user__title span{
+    color: var(--grenn);
+}
+
+.user__box {
+    @include display(row, center, space-evenly, 30px);
+    margin-top: 56px;
+}
+
+.user__card {
+    @include display(column, center, center, 5px);
+    background-image: url(../images/smallBg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 350px;
+    padding-top: 36px
+}
+
+.user__word {
+    @include sWord();
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.user__name {
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+color: var(--grenn);
+}
+
+.user__job {
+font-size: 13px;
+font-style: italic;
+font-weight: 500;
+line-height: 18px;
+color: var(--white);
+padding-bottom: 25px;
+}
