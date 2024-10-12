@@ -38,6 +38,15 @@
   --white: #fff;
 }
 
+::-webkit-scrollbar {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, var(--lightgreen));
+  border-radius: 8px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -315,6 +324,7 @@ body {
   line-height: 18px;
   color: var(--white);
   padding-bottom: 25px;
+  text-align: center;
 }
 
 @media (max-width: 1199.5px) {
@@ -411,6 +421,25 @@ body {
   }
   .icons__title {
     font-size: 32px;
+  }
+  .users {
+    background-image: url(../../images/users__tabletBG.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 97px;
+  }
+  .user__box {
+    flex-direction: column;
+  }
+  .user__title {
+    font-size: 32px;
+    line-height: 32px;
+    max-width: 573px;
+  }
+  .user__card {
+    max-width: 573px;
+    padding-top: 36px;
   }
 }
 @media (max-width: 575.5px) {
@@ -530,5 +559,9 @@ body {
     font-size: 15px;
     line-height: 25px;
     text-align: center;
+  }
+  .users {
+    background-image: url(../../images/users__mobile.png);
+    padding: 140px 24px;
   }
 }/*# sourceMappingURL=main.css.map */

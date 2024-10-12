@@ -16,7 +16,7 @@
   .home {
     background-position: right;
     padding: 100px 20px 230px 20px;
-}
+  }
 
   .home__bin {
     flex-direction: column;
@@ -53,5 +53,28 @@
   .icons__title {
     font-size: 32px;
   }
-  
+
+  // ---- users start ----
+  .users{
+    background-image: url(../../images/users__tabletBG.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 97px;
+  }
+
+  .user__box {
+    flex-direction: column;
+  }
+
+  .user__title {
+    font-size: 32px;
+    line-height: 32px;
+    max-width: 573px;
+  }
+
+  .user__card {
+    max-width: 573px;
+    padding-top: 36px;
+  }
 }

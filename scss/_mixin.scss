@@ -45,3 +45,13 @@
   line-height: 28px;
   background: transparent;
 }
+
+
+::-webkit-scrollbar {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, var(--lightgreen));
+  border-radius: 8px;
+}
