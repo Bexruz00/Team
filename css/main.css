@@ -423,7 +423,7 @@ body {
     font-size: 32px;
   }
   .users {
-    background-image: url(../../images/users__tabletBG.png);
+    background-image: url(../images/users__tabletBG.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -561,7 +561,7 @@ body {
     text-align: center;
   }
   .users {
-    background-image: url(../../images/users__mobile.png);
+    background-image: url(../images/users__mobile.png);
     padding: 140px 24px;
   }
 }/*# sourceMappingURL=main.css.map */
