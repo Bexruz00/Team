@@ -1,0 +1,50 @@
+.footer {
+  background: #002529;
+  padding: 48px 160px;
+}
+
+.footer__box {
+  @include display(row, center, space-between, 0);
+}
+
+.footer__columns {
+  @include display(row, center, center, 140px);
+}
+
+.footer__logo {
+  @include display(column, center, center, 40px);
+}
+
+.footer__logo ul {
+  @include display(row, center, center, 60px);
+}
+
+.footer__logo ul li a {
+  @include nWord();
+}
+
+.footer__information {
+  @include display(column, start, center, 5px);
+}
+
+.footer__location p,
+.footer__information p {
+  @include sWord();
+  opacity: 0.6;
+}
+
+.footer__apps {
+  @include display(column, end, center, 50px);
+}
+
+.footer__icons {
+  @include display(row, center, center, 15px);
+}
+
+.footer__location p{
+    text-align: end;
+}
+
+.footer__bin{
+    display: none;
+}

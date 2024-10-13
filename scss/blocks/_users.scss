@@ -30,7 +30,7 @@
 
 .user__card {
   @include display(column, center, center, 5px);
-  background-image: url(../images/smallBg.png);
+  background-image: url(../images/smallBG.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;

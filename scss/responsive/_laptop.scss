@@ -30,6 +30,21 @@
   .icons__title {
     margin-bottom: 222px;
   }
+
+  // ---- title start ----
+  .title__word {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  // ---- footer start ----
+  footer {
+    padding: 40px 80px;
+  }
+
+  .footer__columns {
+    gap: 100px;
+  }
 }
 
 @media (max-width: 840px) {
@@ -59,5 +74,4 @@
     max-width: 500px;
     gap: 32px;
   }
-
 }

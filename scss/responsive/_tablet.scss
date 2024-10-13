@@ -55,7 +55,7 @@
   }
 
   // ---- users start ----
-  .users{
+  .users {
     background-image: url(../images/users__tabletBG.png);
     background-position: top;
     background-repeat: no-repeat;
@@ -76,5 +76,78 @@
   .user__card {
     max-width: 573px;
     padding-top: 36px;
+  }
+
+  // ---- title start ----
+  .title {
+    background-image: url(../images/title__tablet.png);
+    padding: 84px 97px;
+  }
+
+  .title__word {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .title__bt {
+    width: 153px;
+    height: 48px;
+  }
+
+  // ---- footer start ----
+
+  .footer{
+    padding: 56px 39px;
+  }
+
+  .footer__box {
+    display: none;
+  }
+
+  .footer__bin {
+    display: flex;
+  }
+
+  .footer__columns {
+    gap: 53px;
+  }
+
+  .footer__logo div img {
+    width: 96px;
+  }
+
+  .footer__logo ul {
+    gap: 20px;
+  }
+
+  .footer__logo ul li a {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .footer__iconslink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 33px;
+  }
+
+  .footer__bin{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 33px;
+  }
+
+  .footer__information{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
   }
 }

@@ -1,0 +1,19 @@
+.title {
+  background-image: url(../images/startedBG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 76px 260px;
+}
+
+.title__box {
+  @include display(row, center, space-between, 0);
+}
+
+.title__word {
+  @include title(var(--lightgreen));
+}
+
+.title__bt {
+  @include button(var(--lightgreen), var(--lightgreen));
+}
